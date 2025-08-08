@@ -2,4 +2,4 @@
 
 | Name             | GitHub ID                           |
 |------------------|-------------------------------------|
-| Patrick Hunziker | [pndrik](https://github.com/pndrik) |
+| Niek Vlam | [alphaegen](https://github.com/Alphaegen) |

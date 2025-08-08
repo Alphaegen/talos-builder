@@ -3,7 +3,7 @@ TALOS_VERSION = v1.11.5
 SBCOVERLAY_VERSION = main
 
 REGISTRY ?= ghcr.io
-REGISTRY_USERNAME ?= Alphaegen
+REGISTRY_USERNAME ?= alphaegen
 
 TAG ?= $(shell git describe --tags --exact-match)
 
@@ -117,7 +117,7 @@ installer:
 			--base-installer-image="$(REGISTRY)/$(REGISTRY_USERNAME)/installer:$(TALOS_TAG)" \
 			--overlay-name="rpi5" \
 			--overlay-image="$(REGISTRY)/$(REGISTRY_USERNAME)/sbc-raspberrypi5:$(SBCOVERLAY_TAG)" \
-			"$(EXTENSIONS)"
+			$(EXTENSIONS)
 
 
 
